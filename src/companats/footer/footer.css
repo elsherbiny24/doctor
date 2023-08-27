@@ -1,0 +1,175 @@
+footer{
+    min-height: 90vh;
+    width: 100%;
+    padding-top: 170px;
+    padding-bottom: 60px;
+    background-image: url('../../aswets/1.png47.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+footer .foot{
+ margin-bottom: 80px;
+}
+footer::before{
+    content: '';
+    background-image: url('../../aswets/zgzagfooter.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+}
+footer .Quick-Links{
+    margin-left: 25px;
+    margin-bottom: 30px;
+    color: #1f2278;
+    font-weight: 700;
+    position: relative;
+}
+footer .Quick-Links::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    left: 0;
+    top: 110%;
+    background-image: url('../../aswets/LineFooter.png');
+    background-repeat: no-repeat;
+}
+footer li{
+   list-style: none;
+   position: relative;
+   cursor: pointer;
+   margin-bottom: 10px;
+   text-transform: capitalize;
+   font-weight: 600;
+   font-size: 18px;
+   transition: .3s ease all;
+   color: #444444;
+}
+footer li:hover{
+    color: #1f2278;
+}
+footer li::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    bottom: -3px;
+    background-color: #1f2278;
+    transition: .5s ease all;
+}
+footer li:hover:before{
+    width: 25%;
+}
+footer .li::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    bottom: -5px;
+    background-color: #1f2278;
+    transition: .5s ease all;
+}
+footer .li:hover::before{
+    width: 50%;
+}
+footer ul{
+    text-align: left;
+}
+.footer-div-1 .logo{
+    width: 130px;
+    margin-bottom: 30px;
+}
+.footer-div-1 p{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.footer-div-1 .contact{
+    margin-left: 40px;
+    position: relative;
+}
+.footer-div-1 .contact h5{
+    color: #f17732;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-div-1 .contact .icon{
+    font-size: 24px;
+    position: absolute;
+    left: -45px;
+    top: 12px;
+    z-index: 2;
+    color: #fff;
+}
+.footer-div-1 .contact span{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px 30px 0 30px;
+    background-color: #f17732;
+    position: absolute;
+    left: -60px;
+    top: 0px;
+}
+.footer-div-1 .contact p{
+    color: #1f2278;
+    font-size: 17px;
+    cursor: pointer;
+}
+.footer-div-4{
+    z-index: 5;
+}
+.footer-div-4 .inupts-boxs{
+    z-index: 2;
+}
+.footer-div-4 .inupts-boxs input{
+    height: 50px;
+    width: 270px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+    border: #f17732 2px solid;
+    margin-bottom: 15px;
+
+}
+.footer-div-4 .inupts-boxs button{
+    height: 50px;
+    width: 270px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f17732;
+    margin-bottom: 30px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 3;
+}
+.footer-div-4 a{
+    margin-right: 15px;
+}
+.copyright {
+    color: #444444;
+}
+.copyright p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.copyright-name {
+    color: #f17732;
+    font-weight: bold;
+    text-shadow: 0 0 10px #f17732,
+        0 0 20px #f17732, 0 0 30px #f17732,
+        0 0 40px #f17732, 0 0 70px #f17732,
+        0 0 80px #f17732, 0 0 100px #f17732,
+        0 0 150px #f17732;
+}
+

@@ -1,0 +1,86 @@
+.min-sec-1{
+    background-image: url(../../aswets/1.png05.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    object-fit: cover;
+    background-position-y:top ;
+    
+}
+.min-sec-1 .moslas{
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    animation: moves 1s infinite alternate;
+    transition: .3s ease all;
+    z-index: 1;
+}
+.min-sec-1 .squre{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    animation: moves 2s infinite alternate;
+    transition: .3s ease all;
+    z-index: 1;
+}
+.row-home .home-text{
+    position: relative;
+    
+}
+.row-home .home-text .plus{
+    position: absolute;
+    right: 20px;
+    bottom: -160px;
+}
+.row-home .home-text .circle{
+    position: absolute;
+    left: 140px;
+    top: -70px;
+}
+.row-home .img-home {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.row-home h2{
+    font-size: 45px;
+    font-weight: 900;
+    color: #1f2278;
+    margin-bottom: 60px;
+    letter-spacing: 0px;
+}
+.row-home h4{
+    color: #565acf;
+    font-weight: 700;
+    font-size: 20px;
+}
+.row-home a{
+    color: #fff;
+    padding: 18px 40px;
+    background-color: #f17732;
+    text-decoration: none;
+    border-radius: 8px;
+    align-items: center;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    transition: .4s ease all;
+}
+.row-home a:hover{
+    opacity: .9;
+}
+.row-home .img-home .min-img{
+    width: 450px;
+    animation: moves 2s infinite alternate;
+    transition: .3s ease all;
+}
+@keyframes moves{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}

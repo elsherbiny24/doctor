@@ -1,0 +1,89 @@
+.min-sec-4{
+    background-color: #f5f5fc;
+    z-index: -1;
+    
+}
+.min-sec-4 .form-box{
+    height: 600px;
+    background-color: #fff;
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+   
+   
+}
+.min-sec-4 .form-box span{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-color: transparent;
+    border: 2px solid #5559cc;
+    top: -25px;
+    left:-20px;
+    border-radius: 40px;
+    z-index: -1;
+}
+.min-sec-4 .form-box h2{
+    color: #1f2278;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.min-sec-4 .form-box input{
+    display:block;
+    max-width: initial;
+    width: 340px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border: 1px solid #cccdf1;
+    border-radius: 10px;
+    transition: .5s all ease;
+}
+.min-sec-4 .form-box input:hover{
+    border: #2c2f80 1px solid;
+}
+.min-sec-4 .form-box .date{
+    margin-bottom: 40px;
+}
+.min-sec-4 .form-box .link{
+    text-decoration: none;
+    background-color: #f17732;
+    padding: 20px 30px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 0px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+}
+.min-sec-4 .box-imges{
+    position: relative;
+    display: flex;
+}
+.min-sec-4 .box-imges .mobile{
+    width: 650px;
+}
+.min-sec-4 .box-imges .girl{
+    position: absolute;
+    width: 230px;
+    bottom: 16px;
+    right: 20px;
+ animation: mone 2s infinite alternate;
+}
+@keyframes mone{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}

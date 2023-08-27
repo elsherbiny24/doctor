@@ -1,0 +1,83 @@
+.min-sec-7 .contant{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.min-sec-7 .head{
+text-align: center;
+}
+.min-sec-7 .head h4{
+    color: #f17a36;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.min-sec-7 .head h1{
+    font-weight: 700;
+    color: #1f2278;
+    margin-bottom: 20px;
+    font-size: 52px;
+    letter-spacing: .5px;
+}
+.min-sec-7 .contant .dector{
+    width: 320px;
+    height: 440px;
+    border: #dbeafe 1px solid;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.min-sec-7 .contant .dector .img{
+    width: 275px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.min-sec-7 .contant .dector .img-small{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f17a36;
+    margin-bottom: 10px;
+}
+.min-sec-7 .contant .dector .img-small .devlop .img-1{
+width: 40px;
+border-radius: 50%;
+margin-right: 8px;
+}
+.min-sec-7 .contant .dector .img-small .devlop span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.min-sec-7 .contant .dector p{
+    font-size: 21px;
+    font-weight: 700;
+    color: #1f2278;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.min-sec-7 .contant .dector p:hover{
+    color: #5667d1;
+}
+.min-sec-7 .contant .dector .link{
+    text-decoration: none;
+    padding: 12px 12px;
+    border: #565acf 2px solid;
+    color: #565acf;
+    background-color: transparent;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: .4s ease all;
+}
+.min-sec-7 .contant .dector .link:hover{
+    color: #fff;
+    background-color: #565acf;
+}
+.min-sec-7 .contant .dector .link .icon{
+    color: #fff;
+    background-color: #565acf;
+    height: 30px;
+    width: 35px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-left: 6px;
+}
